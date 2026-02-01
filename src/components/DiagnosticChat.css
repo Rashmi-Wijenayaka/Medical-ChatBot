@@ -1,0 +1,115 @@
+.chat-page-bg {
+  background-color: #537ca1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.chat-container {
+  display: flex;
+  width: 90%;
+  max-width: 1100px;
+  height: 80vh;
+  gap: 20px;
+}
+
+/* Sidebar Styling */
+.side-panel {
+  background-color: #d8ecf9;
+  width: 30%;
+  border-radius: 15px;
+  padding: 30px;
+  color: #2c3e50;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.brand-logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-left: 0;
+}
+
+.brand-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1a2a6c;
+}
+
+.patient-meta p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Chat window Styling */
+.chat-window {
+  background-color: #d8ecf9;
+  width: 70%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.message-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.msg-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+}
+
+.msg-wrapper.dr { align-self: flex-start; }
+.msg-wrapper.you { align-self: flex-end; align-items: flex-end; }
+
+.sender-label {
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.bubble {
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #e2e2e2; /* Default gray for Dr. */
+  color: #333;
+}
+
+.msg-wrapper.you .bubble {
+  background-color: #ffffff; /* White for You */
+  border: 1px solid #ddd;
+}
+
+.input-area {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-area input {
+  width: 100%;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}

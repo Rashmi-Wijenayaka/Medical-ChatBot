@@ -1,0 +1,62 @@
+.form-page {
+  background-color: #537ca1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.cards-container {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.form-card {
+  background-color: #d8ecf9;
+  padding: 40px;
+  border-radius: 15px;
+  width: 380px;
+  color: #333;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.span-2 { grid-column: span 2; }
+
+input[type="text"] {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.radio-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.btn-submit {
+  background-color: #6ea9db;
+  color: white;
+  border: none;
+  padding: 15px 80px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.privacy-note {
+  font-size: 0.8rem;
+  margin-top: 30px;
+  line-height: 1.4;
+}
